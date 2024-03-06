@@ -18,7 +18,7 @@ html,body{
     height: 100vh;
     width: 100vw;
      position: relative;
-     background-color: brown;
+     /* background-color: brown; */
 }
 #page1>video{
     height: 100vh;
@@ -27,8 +27,24 @@ html,body{
 }
 
 #page1>nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     position: absolute;
+    padding: 0px 30px;
     height: 10vh;
     width: 100vw;
-    background-color: yellow;
+    
+}
+
+#page1>img{
+    width: 9%;
+}
+
+#right-nav>button{
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: #0b48ed;
+    border: 1px solid #fff;
+    color: #fff;
 }
