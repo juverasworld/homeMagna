@@ -13,6 +13,10 @@ html,body{
     position: relative;
     overflow: hidden;
 }
+@font-face {
+    font-family: a;
+    src: url();
+}
 
 #page1{
     height: 100vh;
