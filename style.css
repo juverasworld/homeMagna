@@ -119,29 +119,27 @@ body {
     color: #fff;
 }
 
-#page2 {
+#page2{
     display: flex;
-    font-family: a;
     align-items: start;
+    font-family: a;
     justify-content: center;
     flex-direction: column;
     height: 100vh;
     width: 100vw;
-    background-color: #0a3cce;
-    color: #fff;
     position: relative;
     padding: 0vw 8vw;
+    color: #fff;
+    background-color: #0a3cce;
 }
-
-#page2>h2 {
-    font-weight: 100;
+#page2>h2{
     margin-bottom: 3vw;
+    font-weight: 100;
 }
-
-#page2>h1 {
+#page2>h1{
     font-weight: 100;
     line-height: 1.3;
     width: 90%;
     font-size: 4vw;
-color: #dadada69;
+    color: #dadada69;
 }
