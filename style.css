@@ -119,9 +119,29 @@ body {
     color: #fff;
 }
 
-#page2{
+#page2 {
+    display: flex;
+    font-family: a;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
     height: 100vh;
     width: 100vw;
     background-color: red;
+    color: #fff;
     position: relative;
+    padding: 0vw 8vw;
+}
+
+#page2>h2 {
+    font-weight: 100;
+    margin-bottom: 3vw;
+}
+
+#page2>h1 {
+    font-weight: 100;
+    line-height: 1.3;
+    width: 90%;
+    font-size: 4vw;
+
 }
