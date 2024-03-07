@@ -272,3 +272,23 @@ body {
 
     background-color: transparent ;
 }
+
+.page8{
+    position: relative;
+    height: 100vh;
+    width: 100vh;
+    background-color: #0a3cce;
+}
+
+#page8>video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.page8-bottom{
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+}
